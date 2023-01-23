@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'helvetica neue';
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    /*General properties*/
+    height: 20vh;
+    width: 100vw;
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.form__label{
+    font-size: 20px;
+}
+
+.form__input{
+    font-size: 14px;
+    width: 20vw;
+    height: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+.list{
+    /*General properties*/
+    list-style: none;
+}
+
+.list__item{
+    /*General properties*/
+    width: 30vw;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 10px;
+    /*Display*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list__item--name{
+    font-size: 16px;
+}
+
+.list__item--population{
+    font-size: 14px;
+}
+
+.hl{
+    background-color: #ffc600;
+    text-transform: capitalize;
+}
